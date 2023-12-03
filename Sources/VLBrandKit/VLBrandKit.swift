@@ -1,2 +1,6 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+import SwiftUI
+
+public extension Color
+{
+ static let VLstackLogo = Image("VLstack-logo", bundle: .module)
+}
