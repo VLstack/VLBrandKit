@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "VLBrandKit",
             resources: [
-                .process("Resources")
+                .process("Resources/Media.xcassets")
             ]),
         .testTarget(
             name: "VLBrandKitTests",
