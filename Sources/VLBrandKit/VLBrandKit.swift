@@ -1,6 +1,6 @@
 import SwiftUI
 
-public extension Color
+public enum Images
 {
- static let VLstackLogo = Image("VLstack-logo", bundle: .module)
+ static let logo = Image("VLstack-logo", bundle: .module)
 }
