@@ -1,13 +1,13 @@
 import SwiftUI
 
-public 
-enum Images
+// TODO: move to extension of native Image
+public enum Images
 {
  public static let logo = Image("logo", bundle: .module)
 }
 
-public
-enum Colors
+// TODO: move to extension of native Color
+public enum Colors
 {
  public static let primary100 = Color("primary-100", bundle: .module)
  public static let primary200 = Color("primary-200", bundle: .module)
