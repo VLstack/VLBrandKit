@@ -10,7 +10,7 @@ public extension VLstack
    public static let main = Image("main", bundle: .module)
    public static let alternate = Image("alternate", bundle: .module)
    public static let white = Image("white", bundle: .module)
-   public static let template = Image("logo-template", bundle: .module)
+   public static let template = Image("template", bundle: .module)
   }
   
   public enum Color
