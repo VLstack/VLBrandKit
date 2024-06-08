@@ -10,9 +10,14 @@ let package = Package(name: "VLBrandKit",
                        .library(name: "VLBrandKit",
                                 targets: [ "VLBrandKit" ])
                       ],
+                      dependencies:
+                      [
+                       .package(url: "https://github.com/VLstack/VLstackNamespace", from: "1.0.0")
+                      ],
                       targets:
                       [
                        .target(name: "VLBrandKit",
+                               dependencies: [ "VLstackNamespace" ],
                                resources: [ .process("Resources/Media.xcassets") ]),
                        .testTarget(name: "VLBrandKitTests",
                                    dependencies: [ "VLBrandKit" ])
