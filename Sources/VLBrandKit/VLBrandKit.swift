@@ -5,13 +5,7 @@ public extension VLstack
 {
  enum Brand
  {
-  public enum Logo
-  {
-   public static let main = Image("main", bundle: .module)
-   public static let alternate = Image("alternate", bundle: .module)
-   public static let white = Image("white", bundle: .module)
-   public static let template = Image("template", bundle: .module)
-  }
+  public static let logo = Image("logo", bundle: .module)
   
   public enum Color
   {
@@ -62,12 +56,12 @@ public extension VLstack
 @available(*, deprecated, renamed: "VLstack.Brand.Logo", message: "global namespace Images has been replaced by VLstack.Brand.Logo")
 public enum Images
 {
- @available(*, deprecated, renamed: "VLstack.Brand.Logo.main", message: "Images.logo has been replaced by VLstack.Brand.Logo.main")
- public static let logo = VLstack.Brand.Logo.main
- @available(*, deprecated, renamed: "VLstack.Brand.Logo.alternate", message: "Images.logoAlternate has been replaced by VLstack.Brand.Logo.alternate")
- public static let logoAlternate = VLstack.Brand.Logo.alternate
- @available(*, deprecated, renamed: "VLstack.Brand.Logo.white", message: "Images.logoWhite has been replaced by VLstack.Brand.Logo.white")
- public static let logoWhite = VLstack.Brand.Logo.white
+ @available(*, deprecated, renamed: "VLstack.Brand.logo", message: "Images.logo has been replaced by VLstack.Brand.logo")
+ public static let logo = VLstack.Brand.logo
+ @available(*, deprecated, renamed: "VLstack.Brand.logo", message: "Images.logoAlternate has been replaced by VLstack.Brand.logo")
+ public static let logoAlternate = VLstack.Brand.logo
+ @available(*, deprecated, renamed: "VLstack.Brand.logo", message: "Images.logoWhite has been replaced by VLstack.Brand.logo")
+ public static let logoWhite = VLstack.Brand.logo
 }
 
 @available(*, deprecated, renamed: "VLstack.Brand.Color", message: "global namespace Colors has been replaced by VLstack.Brand.Color")
