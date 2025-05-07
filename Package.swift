@@ -12,7 +12,7 @@ let package = Package(name: "VLBrandKit",
                       ],
                       dependencies:
                       [
-                       .package(url: "https://github.com/VLstack/VLstackNamespace", from: "1.1.0")
+                       .package(url: "https://github.com/VLstack/VLstackNamespace", from: "1.2.0")
                       ],
                       targets:
                       [
